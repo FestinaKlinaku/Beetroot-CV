@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/style.css">
+        <title>Festina Klinaku</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <h1><a href="#" class="gradient-text">FESTINA KLINAKU</a></h1>
+                <ul>
+                    <li><a href="#aboutMe">About Me</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contactMe">Contact me</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <hr>
+
+        <main>
+            <section id="aboutMe">
+                <h2>About Me</h2>
+                <img src="img/photo.jpg" alt="A photo of me">
+                <p class="wrap">Hardworking and enthusiastic college student working towards a B.S. in Computer Science. Eager to learn and further develop my skills to become a capable programmer.</p>
+            </section>
+
+            <hr>
+
+            <section id="education">
+                <h2>Education</h2>
+                <article>
+                    <small>2019-Present</small>
+                    <h3>B.S. in Computer Science, University of Prishtina 'Hasan Prishtina'</h3>
+                    <p class="wrap">Relevant Coursework: Algorithms and Data Structures, Object Oriented Programming and Graphical User Interface, English, Artificial Intelligence, Computer Graphics.</p>
+                </article>
+                <hr class="divider">
+                <article>
+                    <small>2016-2019</small>
+                    <h3>High School Diploma, 'Xhevdet Doda' College</h3>
+                    <ul>
+                        <li>
+                            5.0 GPA
+                        </li>
+                        <li>
+                            Honorable student
+                        </li>
+                        <li>
+                            Student council member
+                        </li>
+                    </ul>
+                </article>
+            </section>
+
+            <hr>
+
+            <section id="projects">
+                <h2>Projects</h2>
+                <article>
+                    <h3>Code Snippet Manager</h3>
+                    <p class="wrap">Created a Code Snippet Manager that helps you write and organize your own personal snippets collection and have quick access to it.</p>
+                </article>
+                <hr class="divider">
+                <article>
+                    <h3>Employee Time and Attendance System</h3>
+                    <p class="wrap">Built a simple time and attendance system that helps to track and monitor when employees start and stop work.</p>
+                </article>
+                <hr class="divider">
+                <article>
+                    <h3>Knapsack Problem</h3>
+                    <p class="wrap">Implemented a Java solution for Knapsack Problem using Greedy and Genetic algorithms.</p>
+                </article>
+            </section>
+
+            <hr>
+
+            <section id="skills">
+                <h2>Skills</h2>
+                <article>
+                    <h3>Digital Skills</h3>
+                    <video controls>
+                        <source src="./img/video.mp4">
+                    </video>
+                    <ul>
+                        <li>Java</li>
+                        <li>HTML</li>
+                        <li>Microsoft Word</li>
+                        <li>Microsoft Powerpoint</li>
+                        <li>Microsoft Excel</li>
+                    </ul>
+                </article>
+                <hr class="divider">
+                <article>
+                    <h3>Soft Skills</h3>
+                    <video controls>
+                        <source src="./img/video_2.mp4">
+                    </video>
+                    <ul>
+                        <li>Communication</li>
+                        <li>Organization</li>
+                    </ul>
+                </article>
+                <hr class="divider">
+                <article>
+                    <h3>Language Skills</h3>
+                    <p>Mother tongue: <strong>Albanian</strong></p>
+                    <p>Other Languages:</p>
+                    <table>
+                        <caption><strong>English</strong></caption>
+                        <thead>
+                          <tr>
+                            <th>Listening</th>
+                            <th>Reading</th>
+                            <th>Writing</th>
+                            <th>Spoken Production</th>
+                            <th>Spoken Interaction</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>C1</td>
+                            <td>C1</td>
+                            <td>C1</td>
+                            <td>C1</td>
+                            <td>C1</td>
+                          </tr>
+                        </tbody>
+                        </table>
+                </article>
+            </section>
+
+            <hr>
+
+            <section id="contactMe">
+                <h2>Contact Me</h2>
+                <p>Email: <a href="mailto:myemail@gmail.com">myemail@gmail.com</a></p>
+                <p>Phone: <a href="tel:+13115552368">555-555-5555</a></p>
+
+                <br>
+
+                <form action="#">
+                    <fieldset>
+                        <legend>Your Personal Info</legend>
+                        <p>
+                            <label for="firstname">Name:</label> <br>
+                            <input type="text" id="firstname" name="firstname" placeholder="John" autocomplete="on" required autofocus>
+                        </p>
+                        <p>
+                            <label for="lastname">Lastname:</label> <br>
+                            <input type="text" id="lastname" name="lastname" placeholder="Doe" autocomplete="on" required>
+                        </p>
+                        <p>
+                            <label for="email">Email:</label> <br>
+                            <input type="email" id="email" name="email" placeholder="youremail@gmail.com" autocomplete="on" required>
+                        </p>
+                        <p>
+                            <label for="phone">Phone:</label> <br>
+                            <input type="tel" name="phone" id="phone" placeholder="5555555555" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required>
+                        </p>
+                    </fieldset>
+
+                    <br>
+
+                    <fieldset>
+                        <legend>Your Message</legend>
+                        <p>
+                            <label for="message">Message:</label>
+                            <br>
+                            <textarea name="message" id="message" cols="30" rows="10" placeholder="Type your message here"></textarea>
+                        </p>
+                    </fieldset>
+                    <button type="submit">Submit</button>
+                </form>
+            </section>
+        </main>
+
+        <br>
+
+        <hr>
+
+        <footer>
+            <p class="copyright">
+                &copy; 2022 by Festina Klinaku
+            </p>
+        </footer>
+    </body>
+</html>
